@@ -22,6 +22,11 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.h
   - Autor: Eze Chavez
   - Fecha: 2024-04-24
 
+- Creación del archivo `.gitignore` en la raíz del proyecto con configuración completa para Laravel
+  - Incluye reglas para node_modules, archivos de entorno, caché, logs y archivos del sistema
+  - Autor: Eze Chavez
+  - Fecha: {{ date('Y-m-d') }}
+
 ### Corregido
 - Error en pruebas debido a la ausencia del componente `application-mark`
 - Error en pruebas debido a la ausencia del componente `dropdown`
@@ -207,3 +212,24 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ### Autor
 - eze Chavez 
+
+### Changed
+- Renombrada la rama principal de `master` a `main` para seguir las convenciones modernas de nomenclatura
+- Autor: Eze Chavez
+- Fecha: [Fecha actual]
+
+### Pendiente
+- Configurar la autenticación de GitHub con token de acceso personal para permitir push al repositorio remoto
+
+## [Unreleased] - modulo2
+
+### Added
+- Creación de la rama `modulo2` para implementar la personalización del usuario
+- Características planificadas:
+  - Preferencias de tema (claro/oscuro)
+  - Selección de idioma (es/en)
+  - Persistencia de preferencias en base de datos
+  - Carga automática de preferencias al iniciar sesión
+
+### Author
+- Eze Chavez

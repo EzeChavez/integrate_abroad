@@ -31,6 +31,9 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'theme',
+        'language',
+        'edit_user_id',
     ];
 
     /**

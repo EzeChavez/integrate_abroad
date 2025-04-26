@@ -124,3 +124,19 @@ Fecha de última actualización: {{ date('Y-m-d') }}
 - Índices:
   - PRIMARY KEY (`id`)
   - INDEX `team_invitations_team_id_index`
+
+## Módulo de Preferencias de Usuario
+
+### Tabla: users (actualización)
+- `theme` (string) - Preferencia de tema del usuario (light/dark)
+  - Default: 'light'
+- `language` (string) - Preferencia de idioma del usuario (es/en)
+  - Default: 'es'
+- `edit_user_id` (unsignedBigInteger, nullable) - ID del usuario que realizó la última edición
+  - Foreign key: users.id
+
+### Relaciones
+- `edit_user_id` -> `users.id` (Foreign Key)
+
+### Índices
+- `users_edit_user_id_foreign` en `edit_user_id`

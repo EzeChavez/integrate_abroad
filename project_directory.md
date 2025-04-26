@@ -1,5 +1,43 @@
 # Estructura del Directorio del Proyecto
 
+## Módulo de Preferencias de Usuario
+```
+app/Modules/UserPreferences/
+├── Controllers/
+│   └── UserPreferenceController.php
+├── Models/
+│   └── UserPreference.php
+└── Views/
+    └── Index.vue
+```
+
+### Descripción de los Archivos
+
+#### Controllers
+- `UserPreferenceController.php`: Gestiona las preferencias del usuario (tema y idioma)
+  - Métodos:
+    - `index()`: Muestra la página de preferencias
+    - `update()`: Actualiza las preferencias del usuario
+
+#### Models
+- `UserPreference.php`: Modelo para manejar las preferencias del usuario
+  - Campos:
+    - `theme`: Preferencia de tema (light/dark)
+    - `language`: Preferencia de idioma (es/en)
+  - Relaciones:
+    - `user()`: Pertenece a un usuario
+    - `editUser()`: Usuario que realizó la última edición
+
+#### Views
+- `Index.vue`: Vista principal de preferencias
+  - Componentes:
+    - Selector de tema (claro/oscuro)
+    - Selector de idioma (español/inglés)
+    - Botón de guardado
+
+### Autor
+- Eze Chavez
+
 ```
 ├── app/
 │   ├── Modules/
