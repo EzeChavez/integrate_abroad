@@ -1,0 +1,58 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+/.vagrant
+.phpunit.cache
+.php-cs-fixer.cache
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE y editores
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Archivos de dependencias y compilados
+/public/build
+/public/css
+/public/js
+/public/mix-manifest.json
+/bootstrap/cache/*
+.env.*.local
+
+# Archivos de testing
+/coverage
+.phpunit.cache
+.phpunit.result.cache
+
+# Archivos temporales
+*.log
+*.cache
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+
+# Archivos de configuración local
+/.env.local
+/.env.*.local 
